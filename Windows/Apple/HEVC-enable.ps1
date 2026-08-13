@@ -39,3 +39,19 @@ Set-Variable -Name HEVC_APPX -Option Constant -Value @{
     Name = 'Microsoft.HEVCVideoExtension'
   }
 
+<# 
+Functions
+
+Input = PackageFamilyName, ProductId, or Microsoft Store App
+Output = Array of paths to sucessfully download packages (for app and its dependancies)
+Errors = Display in Console
+
+#>
+function Download-AppxPackage {
+
+}
+
+#MAIN 
+
+
+
